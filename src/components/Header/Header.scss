@@ -1,0 +1,21 @@
+.head {
+  margin: 0 auto;
+  a {
+    text-decoration: none;
+    // color: #000;
+    font-size: 22px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: rgb(186, 123, 123);
+    // box-shadow: 0 0 20px #eee;
+  }
+  a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #8e54e9;
+    text-decoration: none;
+  }
+}
